@@ -23,7 +23,7 @@ const contactLinks: SocialLink[] = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/souravghosh18",
+    href: "https://www.linkedin.com/in/souravghosh15",
     icon: <LinkedInIcon fontSize="medium" />
   }
 ];

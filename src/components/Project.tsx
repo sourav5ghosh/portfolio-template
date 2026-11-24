@@ -14,14 +14,14 @@ interface ProjectItem {
 
 const projectList: ProjectItem[] = [
   {
-    title: "Amazon Web Scraper Project",
+    title: "Amazon Web Scraper",
     description:
       "Automated web scraping pipeline built in Python using BeautifulSoup and requests to extract product pricing, ratings, and availability data into structured CSV datasets for price tracking.",
     image: mock01,
     link: "https://github.com/your-username/amazon-web-scraper"
   },
   {
-    title: "Automate API Extraction + Appending Data + Extra -- Project",
+    title: "Automate API Extraction",
     description:
       "Scheduled Python ETL workflow that pulls live cryptocurrency/market metrics from a REST API, cleans and normalizes JSON payloads with pandas, and appends historical records automatically.",
     image: mock02,

@@ -42,18 +42,21 @@
 
 .skills-container .skills-grid .skill h3 {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 700;
 }
 
-.skills-container .skills-grid .skill h3::before {
-    content: "";
+.skill-logo {
+    width: 1.65rem;
+    height: 1.65rem;
+    margin-right: 0.55rem;
     display: inline-block;
-    height: 1em;
-    margin-right: 0.65rem;
-    border-left: 2px solid #5000ca;
-    vertical-align: -0.1em;
+    vertical-align: -0.25em;
 }
-  
+
+.python-logo {
+    fill: currentColor;
+}
+
 .chip {
     color: rgb(39, 40, 34) !important;
     background-color: white !important;
@@ -62,7 +65,6 @@
     height: 25px !important;
   
     span {
-        font-family: 'Courier Prime', monospace;
         color: rgb(39, 40, 34);
         font-weight: 300;
     }
@@ -88,8 +90,6 @@
 
 .flex-chips .MuiChip-outlined {
     background-color: #e0e0e0;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
 }
 
 .flex-chips .MuiChip-outlined span {

@@ -11,7 +11,7 @@ interface EducationRecord {
 const educationRecords: EducationRecord[] = [
   {
     year: "2023 – 2027",
-    qualification: "Bachelor of Computer Application (BCA)",
+    qualification: "Bachelor of Computer Application",
     institution: "Techno India Hooghly Campus",
     scoreOrFocus: "Pursuing"
   },
